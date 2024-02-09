@@ -1,0 +1,29 @@
+
+html, body { 
+    color:rgb(163, 67, 67);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+    margin: 5px auto;
+}
+
+img[name="tributecover"] {
+  width: 250px;
+  height:250px;
+  border: 2px solid black;
+  margin: 15px auto;
+}
+
+div {
+   display: block;
+   text-align:center;
+   width:100%;
+
+}
+
+.tribute {
+    background-color: rgb(80, 24, 19);
+    padding-bottom: 15px ;
+}
