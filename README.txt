@@ -1,6 +1,5 @@
 Free Code Camp Responsive Web Design Project 2
-Build a Tribute Page
-Code written by: Erika Mennella
+Build a Tribute Page by Erika Mennella
 
 User Stories
 1. Should have main element with id of main
