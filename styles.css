@@ -1,29 +1,39 @@
-
-html, body { 
-    color:rgb(163, 67, 67);
-    margin: 0;
-    padding: 0;
+html {
+	text-align:center;
 }
 
-h1, h2, p {
-    margin: 5px auto;
+#main {
+	background-color:white;
 }
 
-img[name="tributecover"] {
-  width: 250px;
-  height:250px;
-  border: 2px solid black;
-  margin: 15px auto;
+#title {
+	background-color: #f3f3f3;
 }
 
-div {
-   display: block;
-   text-align:center;
-   width:100%;
-
+#img-div {
+	background-color: maroon;
 }
 
-.tribute {
-    background-color: rgb(80, 24, 19);
-    padding-bottom: 15px ;
+#image {
+	background-color:#ffffff;
+	margin: 2em auto;
+	width: 250px;
+	padding: 1em 1em;
 }
+#img-caption {
+      padding: 0 2em 2em;
+	  margin: auto;
+	  color:lightgrey;
+}
+
+ul {
+	text-align: left;
+}
+#tribute-info {
+	background-color: tan;
+}
+
+#tribute-link {
+	background-color:lightgrey;
+}
+

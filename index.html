@@ -1,32 +1,54 @@
-<!-- Free Code Camp Responsive Web Design Curriculum
-Project 2: Build a Tribute Page
-
-Written by: Erika Mennella
-
-User Stories
-1. Should have main element with id of main
-2. element with id of title that describes the subject
-3. figure or div element with id "img-div"
-4. #img-div element has id="image"
-5. #img-div element should have caption with id="img-caption.
-6. element with id="tribute-info" that describes tribute page.
-7. have an 'a' element with id="tribute-link" linkes to an outside website 
-   with an attribute target="_blank"
-8. #image maxwidth and height resize responsively
-9. img element should be centered within its parent element.
-
-Notes: Make sure to add "<link rel="stylesheet" href="styles.css"> in html index page.
--->
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute Page</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-</body>
+  <head>
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width" />
+	  <link rel="stylesheet" href="styles/styles.css" />
+	  <title>My first webpage</title>
+  </head>
+  <body>
+	  <main>
+	    <h1 id="title">Nifflers</h1>
+		
+	    <div id="img-div">
+			
+		  <img id="image" src="images/Niffler-image.jpeg" alt="A Niffler with black fur holding a watch" />
+		  
+		  <p id="img-caption">
+			  These creatures love to collect shings things. <br>Better keep an eye out on your change when these creatures are around.
+		  </p>
+	    </div>
+		
+		<div id="tribute-info">
+		<!-- CONTENT -->
+		  <h1>What are Nifflers?</h2>
+		  <p>A magical beast with a long snout and a coat of black fluffy fur. They are gentle creatures, but can wreak havoc looking for more shiny objects to collect.</p>
+		
+		<h2>History</h2>
+		<!--Make A List-->
+		<ul>
+			<li>First known history of nifflers gone back to when they were kept by goblins to search for treasure.</li>
+		
+		<li>1926 - Newt Scamander had a Niffler named Teddy, who escaped during his visit in New York.</li>
+		<li>1927 - Same niffler produced four offspring of different colors.</li>
+		
+		<li>1994-1995 Hogwarts Hagrid used them in during his fourth year’s Care of Magical Creatures class by hiding leprechaun gold in the dirt and have the students use them to find it. </li>
+		
+		<li>During Dolores Umbridge’s time at Hogwarts, Nifflers wrecked her office looking for shiny objects, and bit at her fingers to get her rings she wore.</li>
+	</ul>	
+		<!-- Additional info -->
+		<h3>Known Nifflers</h3>
+		<!-- make a table -->
+		Niffler - Alfred, Teddy,Timothy, owner - newt scamander
+		Oswald, owner British MInistry of magic
+			
+		</div>
+       
+		<!-- TRIBUTE LINK -->	
+		<div id="tribute-link">
+		<h3>Read more on the Harry Potter <a href="https://harrypotter.fandom.com/wiki/Niffler">Wikipedia</a> page.	
+		</h3>
+		</div>
+	  </main>
+  </body>
 </html>
